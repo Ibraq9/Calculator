@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="main-up">
+        <div class="main">
+            <div class="resualt" id="resualt"></div>
+            <div class="numbers">
+                <button id="un1" onclick="getele(this.innerText)">+</button>
+                <button onclick="getele(this.innerText)">7</button>
+                <button onclick="getele(this.innerText)">8</button>
+                <button onclick="getele(this.innerText)">9</button>
+                
+                <button id="un2" onclick="getele(this.innerText)">-</button>
+                <button onclick="getele(this.innerText)">4</button>
+                <button onclick="getele(this.innerText)">5</button>
+                <button onclick="getele(this.innerText)">6</button>
+                
+                <button id="un3" onclick="getele(this.innerText)">*</button>
+                <button onclick="getele(this.innerText)">1</button>
+                <button onclick="getele(this.innerText)">2</button>
+                <button onclick="getele(this.innerText)">3</button>
+                
+                <button id="un4" onclick="getele(this.innerText)">/</button>
+                <button onclick="getele(this.innerText)">0</button>
+                <button onclick="getele(this.innerText)">.</button>
+                <button id="equal" onclick="equal()">=</button>
+                
+                <button id="un5">C</button>
+                <button id="backspace" onclick="backspaceButton()">←</button>
+            </div>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>

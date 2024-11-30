@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.main {
+    width: 20%;
+    height: 60%;
+    margin: auto;
+}
+
+.main-up {
+    margin: 10% 0;
+}
+
+.resualt {
+    background-color: rgb(78, 77, 77);
+    width: 100%;
+    height: 70px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.numbers {
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.numbers button {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(82, 80, 80);
+    color: white;
+    font-size: 30px;
+}
+
+#un1, #un2, #un3, #un4 {
+    background-color: rgb(224, 103, 27);
+}
+
+#un1:hover, #un2:hover, #un3:hover, #un4:hover {
+    background-color: rgb(199, 131, 88);
+}
+
+.numbers button:hover {
+    background-color: rgb(110, 107, 107);
+}
